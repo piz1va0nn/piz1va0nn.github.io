@@ -54,7 +54,9 @@
 
       <section class="user-info">
           <h2>Siwagon Wongprasert</h2>
-          <p>Bio :I'm currently a third-year KMUTT computer engineering student. 💻 
+          <p>Bio :Hi, guys👋🏻 My name's pings. I'm 21 right now(2023)
+            <br><br><br><br><br>
+            I'm currently a third-year KMUTT computer engineering student. 💻 
             <br><br><br><br><br>
             This is my first Portfolio with HTML, CSS and maybe Javascript! 😂
             <br><br><br><br><br>
@@ -116,7 +118,23 @@
               <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
           </div>
         </ul>
-      
+        <!-- Report Button -->
+        <center>
+        <button id="reportButton">Report</button>
+        <form action="submit_form.php" method="post" id="contactForm" style="display: none;">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="message">Decription:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+  
+          <button type="submit">Submit</button>
+        </form>
+      </center>
+    
     </section>
 
     <footer>
